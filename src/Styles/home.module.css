@@ -1,0 +1,203 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Trirong:ital,wght@1,400&display=swap'); */
+.img_div{
+    position: relative;
+   margin: auto;
+   width: 1080px;
+}
+.first_img{
+    height: 425px;
+    display: block;
+    margin: auto;
+    margin-top: 60px;
+   /* position: absolute; */
+}
+.specific{
+    font-size: 43px;
+    width: 250px;
+    color: rgb(255, 255, 255);
+height: 300px;
+text-align: center;
+    font-style: italic;
+font-weight: lighter;
+    letter-spacing: normal;
+    /* position: relative; */
+    font-family: 'Trirong', serif;
+    font-weight: 500;
+    width: 250px;
+    padding-top: 40px;
+}
+.img_over_text{
+    font-family: 'Trirong', serif;
+    line-height: 1.2;
+    width: 1000px;
+    display: flex;
+    font-style: italic;
+    letter-spacing: normal;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: -430px;
+}
+
+
+.shopping_btn h4{
+    font-family: Trirong,serif,Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    margin-bottom: 6px;
+    line-height: 1.5;
+    letter-spacing: .5px;
+    color: #000;
+
+}
+
+.shopping_btn > button{
+    margin-right: 18px;
+    border: none;
+    padding: 8px;
+    font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.622);
+}
+.men_btn{
+    background-color: #ffc929 !important;
+}
+.latest{
+    display: flex;
+    justify-content: space-between;
+height: 30px;
+}
+.latest p{
+    margin-top: 0;
+}
+.show_more_btn{
+    background-color: #04a1a3 ;
+    color: white !important;
+    padding: 14px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-radius: 22px !important;
+}
+.show_more_btn:hover{
+    background-color: #0dd9e0 ;
+}
+
+
+.products_div{
+    position: relative;
+   margin: auto;
+   border: 1px solid red;
+   width: 1080px;
+}
+.heading{
+    font-size: 28px;
+    font-family: 'Trirong', serif;
+    font-style: italic;
+    font-weight: lighter;
+        letter-spacing: normal;
+
+}
+
+
+/* Women Card */
+.card_map{
+   display: flex;
+   position: relative;
+
+}
+.card_map div{
+    line-height: 0.3;
+}
+.card_img{
+height: 370px;
+z-index: -1;
+border-radius: 8px;
+object-fit: center;
+}
+.card_map h4{
+    font-size: 16px;
+    font-variant: all-petite-caps;
+    letter-spacing: 2px;
+    color: rgba(0, 0, 0, 0.823);
+}
+.card_map p{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.674);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: -2px;
+}
+.label{
+    position: absolute;
+    left: 8px;
+    top: 0;
+   
+}
+.label_txt{
+    transform: rotate(-90deg);
+   
+    left: -24px;
+    font-size: 12px;
+    top: 60px;
+    color: rgba(0, 0, 0, 0.435);
+    font-family: 'Trirong', serif;
+    font-style: italic;
+    font-weight: bold;
+  
+}
+.grid_div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+z-index: -1;
+gap: 25px;
+
+
+}
+.addlist{
+    position: relative;
+    bottom: 0;
+    top: -20px;
+    left: 190px;
+    background-color: white;
+    border-radius: 50%;
+  cursor: pointer;
+    padding: 5px;
+
+}
+.title_div{
+   height: 90px;
+   font-variant:small;
+margin-top: -40px;
+
+}
+.title_div h5{
+    margin-top: 5px;
+}
+.main_div{
+    position: relative;
+    height: 470px;
+    overflow-y: hidden;
+   cursor: pointer;
+   z-index: 1;
+
+}
+.prev_btn{
+    position: absolute;
+    top: 30%;
+    z-index: 10;
+}
+.next_btn{
+
+    position: absolute;
+top: 30%;
+
+    
+}
+
+.next_btn {
+    right: 0;
+}
+/* ----------------------------------------------------------------- */
